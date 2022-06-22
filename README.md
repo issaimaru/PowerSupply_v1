@@ -1,4 +1,4 @@
-# PowerSupply_Power
+# PowerSupply_v1
 [自作モータードライバ](https://github.com/Issaimaru/MoterDriver_v1)とMDCを刺すことができる電源基板 制作期間:2022/04/02~ 名前:パワー!(仮)
 
 ## 完成予想図
