@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "彼女(仮)_回路図")(type KiCad)(uri "$(KIPRJMOD)/彼女(仮)_回路図.pretty")(options "")(descr ""))
-  (lib (name 2022年度回路班_新電源基板)(type KiCad)(uri "$(KIPRJMOD)/2022年度回路班_新電源基板.pretty")(options "")(descr ""))
-)
