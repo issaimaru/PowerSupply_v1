@@ -1832,7 +1832,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="101.415" y="12.789" size="0.1" layer="22" rot="MR180"/>
 </element>
 <element name="CTRL1" library="con-jst-xh" package="B2B-XH" value="02-JST" x="105.449" y="67.55" smashed="yes" rot="R90">
-<attribute name="NAME" x="109.005" y="65.788" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="109.005" y="65.661" size="0.8" layer="25" rot="R90"/>
 </element>
 <element name="CTRL2" library="con-jst-xh" package="B2B-XH" value="02-JST" x="105.449" y="59.372" smashed="yes" rot="R90">
 <attribute name="NAME" x="109.132" y="57.508" size="0.8" layer="25" rot="R90"/>

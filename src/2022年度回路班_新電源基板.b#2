@@ -2083,7 +2083,6 @@ design rules under a new name.</description>
 <wire x1="99.695" y1="11.811" x2="101.437" y2="11.811" width="0.254" layer="16"/>
 <wire x1="101.437" y1="11.811" x2="102.915" y2="13.289" width="0.254" layer="16"/>
 <wire x1="97.011" y1="14.495" x2="99.695" y2="11.811" width="0.254" layer="16"/>
-<wire x1="94.997" y1="14.495" x2="48.92" y2="15.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIR4">
 <contactref element="SV1" pad="3"/>
@@ -2293,7 +2292,12 @@ design rules under a new name.</description>
 <wire x1="17.327" y1="10.398" x2="17.073" y2="10.398" width="0.254" layer="1"/>
 <wire x1="99.492" y1="8.162" x2="101.219" y2="9.889" width="0.254" layer="1"/>
 <wire x1="99.492" y1="1.145" x2="99.492" y2="8.162" width="0.254" layer="1"/>
-<wire x1="60.85" y1="72.84" x2="98.846" y2="66.153" width="0" layer="19" extent="1-1"/>
+<wire x1="60.85" y1="72.84" x2="63.702" y2="75.692" width="0.254" layer="1"/>
+<wire x1="63.702" y1="75.692" x2="99.441" y2="75.692" width="0.254" layer="1"/>
+<wire x1="99.441" y1="75.692" x2="101.727" y2="73.406" width="0.254" layer="1"/>
+<wire x1="101.727" y1="73.406" x2="101.727" y2="68.326" width="0.254" layer="1"/>
+<wire x1="101.727" y1="68.326" x2="99.554" y2="66.153" width="0.254" layer="1"/>
+<wire x1="99.554" y1="66.153" x2="98.846" y2="66.153" width="0.254" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R2" pad="1"/>
@@ -2701,8 +2705,8 @@ design rules under a new name.</description>
 <vertex x="89.841" y="46"/>
 <vertex x="111" y="46"/>
 <vertex x="111" y="58.397"/>
-<vertex x="97.889" y="58.397"/>
-<vertex x="97.889" y="75"/>
+<vertex x="97.381" y="58.397"/>
+<vertex x="97.381" y="75"/>
 </polygon>
 </signal>
 <signal name="NC">
