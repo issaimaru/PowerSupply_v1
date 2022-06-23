@@ -1,5 +1,5 @@
 # PowerUnit Bseries(ver 1.0)
-[自作モータードライバ](https://github.com/Issaimaru/MoterDriver_v1)とMDCを刺すことができる電源基板 制作期間:2022/04/02~ 名前:PowerUnit Bseries(ver 1.0)
+[自作モータードライバ](https://github.com/Issaimaru/MoterDriver_v1)と[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺すことができる電源基板 制作期間:2022/04/02~ 名前:PowerUnit Bseries(ver 1.0)
 
 ## 基板外形図
 #### 表
