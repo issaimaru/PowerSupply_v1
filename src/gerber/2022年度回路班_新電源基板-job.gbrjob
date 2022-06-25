@@ -1,0 +1,128 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.10)-1"
+    },
+    "CreationDate":  "2022-06-25T13:24:03+09:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "2022___________",
+      "GUID": "32303232-74a6-4dee-9fed-5fb0fb90fa7f",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 112.750,
+      "Y": 77.050
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.152,
+      "PadToTrack":  0.152,
+      "TrackToTrack":  0.152,
+      "MinLineWidth":  0.152,
+      "TrackToRegion":  0.152,
+      "RegionToRegion":  0.152
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-Top.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-Bottom.gbr",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-B_SilkS.gbr",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "2022\u5E74\u5EA6\u56DE\u8DEF\u73ED_\u65B0\u96FB\u6E90\u57FA\u677F-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer Top"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer Bottom"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}
