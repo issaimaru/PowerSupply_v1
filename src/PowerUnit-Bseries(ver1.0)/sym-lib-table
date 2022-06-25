@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "PowerUnit-Bseries(ver1.0)-eagle-import")(type Legacy)(uri "${KIPRJMOD}/PowerUnit-Bseries(ver1.0)-eagle-import.lib")(options "")(descr ""))
+)
