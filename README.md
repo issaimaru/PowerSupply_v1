@@ -31,3 +31,13 @@
 |LED2|OSNG5113A|https://akizukidenshi.com/catalog/g/gI-00625/|￥5(100個)|
 |LED3|OSB5SA5B64A|https://akizukidenshi.com/catalog/g/gI-13205/|￥25(10個)|
 |総額|||￥5514.4|
+
+<details><summary>回路図(Eagle)</summary>
+
+![image](https://user-images.githubusercontent.com/80198387/175750676-a4db1ff3-d1e8-4bde-8aef-054bed0046f0.png)
+</details>
+
+## 前電源基板(Strong遠野)との違い<br>
+回路図からも分かる通り，基本的にはStrong遠野と同じです．<br>違うところは，[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺して使うことができること，FETが4つついてるので(リセッタブルヒューズを外せば)より大電流を流せるようになることです．<br>また，エッジコネクタ部に三角の印をつけることで逆接が若干しにくくなりました．
+
+以降のページは実験後に更新する予定です．
