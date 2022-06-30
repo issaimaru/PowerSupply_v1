@@ -9,6 +9,8 @@
 **裏**
 ![image](https://user-images.githubusercontent.com/80198387/175341750-3d81d61b-4435-4e29-809e-2f7eab348755.png)<br>
 
+基板サイズ:*112.7[mm]×77[mm]*
+
 ## 使用電子部品，値段
 >**Note**<br>
 >ML10，JST，P-SWITCHは部室にあるため省略<br>
@@ -39,5 +41,11 @@
 
 ## 前電源基板(Strong遠野)との違い<br>
 回路図からも分かる通り，基本的にはStrong遠野と同じです．<br>違うところは，[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺して使うことができること，FETが4つついてるので(リセッタブルヒューズを外せば)より大電流を流せるようになることです．<br>また，エッジコネクタ部に三角の印をつけることで逆接が若干しにくくなりました．
+
+## 回路図のダウンロード(クローン)方法
+1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
+1. コマンドプロンプトを立ち上げる．
+1. `cd ”ダウンロード先フォルダの絶対パス” `<br>
+1. `git clone https://github.com/Issaimaru/PowerSupply_v1.git`<br>
 
 以降のページは実験後に更新する予定です．
