@@ -5,7 +5,7 @@
 
 ## 基板外形図
 **表**
-![image](https://user-images.githubusercontent.com/80198387/175341575-98449f18-78f5-4ff7-93c1-70e6229af2ca.png)<br>
+![image](https://user-images.githubusercontent.com/80198387/177504442-f3bd95a7-9038-4bbe-a155-4c2b75209f2a.png)<br>
 **裏**
 ![image](https://user-images.githubusercontent.com/80198387/175341750-3d81d61b-4435-4e29-809e-2f7eab348755.png)<br>
 
