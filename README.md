@@ -35,6 +35,7 @@
 |総額|||￥5514.4|
 
 <details><summary>回路図(Eagle)</summary>
+  
 ![電源基板_回路図](https://user-images.githubusercontent.com/80198387/178936574-0c1b3448-379c-48d6-949c-f707fd801ca6.png)
 </details>
 
