@@ -35,8 +35,7 @@
 |総額|||￥5514.4|
 
 <details><summary>回路図(Eagle)</summary>
-
-![image](https://user-images.githubusercontent.com/80198387/175750676-a4db1ff3-d1e8-4bde-8aef-054bed0046f0.png)
+![電源基板_回路図](https://user-images.githubusercontent.com/80198387/178936574-0c1b3448-379c-48d6-949c-f707fd801ca6.png)
 </details>
 
 ## 前電源基板(Strong遠野)との違い<br>
