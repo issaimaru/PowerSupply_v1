@@ -11,6 +11,35 @@
 
 基板サイズ:*112.7[mm]×77[mm]*
 
+## 使い方
+使用方法を間違えると**燃える可能性もあります．**<br>
+使用者は必ず確認してください．長くなるため折りたたみます．<br>
+
+<details><summary>使い方</summary>
+
+- 信号入力部
+
+![image](https://user-images.githubusercontent.com/80198387/178939962-d2edaab1-55e4-4b5e-9a4e-da994bf1eb55.png)
+
+このピンにモータードライバのPWM，DIRの信号を入力してください．(PWMとDIRについての詳細な説明は[DriveUnit Bseriesの「使い方」](https://github.com/Issaimaru/MoterDriver_v1#%E4%BD%BF%E3%81%84%E6%96%B9)に書きました．そちらを参照してください．)<br>
+また，マイコンのHiレベルと同じ電圧のピン(mbedなら3.3V，Arduinoなら5V)とGNDピンに接続してください．<br>
+![スクリーンショット 2022-07-14 174218](https://user-images.githubusercontent.com/80198387/178941209-36f19b4f-cbdb-48f0-9d1e-3070a258b608.png)
+
+ピン配置はこの様になっています．<br>
+ここの接続は本当に間違えやすく，自分も前電源基板でこのピン配置を間違え一週間程度浪費したことがあるので，一応表でも示しておきます．
+
+|1|2|
+|:---:|:---:|
+|GND|VCC(3.3V/5V)|
+|DIR4|PWM4|
+|DIR3|PWM3|
+|DIR2|PWM2|
+|DIR1|PWM1|
+
+また，PWM1～PWM4までありますが，その番号と同じエッジコネクタ(EDGE1～EDGE4)に挿しているモータードライバにその信号がいきます．DIRも同じです．
+
+</details>
+
 ## 使用電子部品，値段
 >**Note**<br>
 >ML10，JST，P-SWITCHは部室にあるため省略<br>
