@@ -36,7 +36,7 @@
 
 <details><summary>回路図(Eagle)</summary>
 
-
+![image](https://user-images.githubusercontent.com/80198387/175750676-a4db1ff3-d1e8-4bde-8aef-054bed0046f0.png)
 </details>
 
 ## 前電源基板(Strong遠野)との違い<br>
