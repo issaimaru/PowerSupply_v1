@@ -1,6 +1,7 @@
 # PowerUnit Bseries(ver 1.0)
 **[自作モータードライバ](https://github.com/Issaimaru/MoterDriver_v1)と[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺すことができる電源基板**<br>
 **制作期間:2022/04/02~**<br>
+**動作電圧(TLP250H使用時) 9[V]~35[V]**
 **名前:PowerUnit Bseries(ver 1.0)**
 
 ## 基板外形図
@@ -69,7 +70,9 @@
 </details>
 
 ## 前電源基板(Strong遠野)との違い<br>
-回路図からも分かる通り，基本的にはStrong遠野と同じです．<br>違うところは，[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺して使うことができること，FETが4つついてるので(リセッタブルヒューズを外せば)より大電流を流せるようになることです．<br>また，エッジコネクタ部に三角の印をつけることで逆接が若干しにくくなりました．
+回路図からも分かる通り，基本的にはStrong遠野と同じです．<br>違うところは，[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺して使うことができること，FETが4つついてるので(リセッタブルヒューズを外せば)より大電流を流せるようになることです．<br>また，エッジコネクタ部に三角の印をつけることで逆接が若干しにくくなりました．<br>
+フォトカプラはStrong遠野に使われているTLP250の強化版(?)であるTLP250Hを使用しましたが，なぜかTLP250Hは9[V]からじゃないと動かないようです....(~強化版とは~)<br>
+そのため，8V近くでDUBを使う場合はStrong遠野に刺さっているTLP250に付け替えて使用してください(TLP250も動作電圧は10[V]からとなってますが4[V]程度でも動作します)．
 
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
