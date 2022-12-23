@@ -8661,6 +8661,78 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MCP2558FD">
+<packages>
+<package name="MCP2558FD" urn="urn:adsk.eagle:footprint:38673255/1">
+<smd name="EP" x="0" y="0" dx="1.65" dy="1.8" layer="1"/>
+<smd name="TXD" x="-0.75" y="-1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="VSS" x="-0.25" y="-1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="VDD" x="0.25" y="-1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="RXD" x="0.75" y="-1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="VIO" x="0.75" y="1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="CANL" x="0.25" y="1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="CANH" x="-0.25" y="1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<smd name="S" x="-0.75" y="1.45" dx="0.25" dy="0.85" layer="1" roundness="100"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="1" y1="-1.5" x2="1" y2="1.5" width="0.1" layer="21"/>
+<wire x1="1" y1="1.5" x2="-1" y2="1.5" width="0.1" layer="21"/>
+<circle x="-0.5" y="-1" radius="0.3" width="0.05" layer="21"/>
+<text x="-1.2" y="-1" size="0.381" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MCP2558FD" urn="urn:adsk.eagle:package:38673258/1" type="box">
+<packageinstances>
+<packageinstance name="MCP2558FD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MCP2558FD" urn="urn:adsk.eagle:symbol:38673256/1">
+<wire x1="0" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="TXD" x="-5.08" y="10.16" length="middle"/>
+<pin name="VSS" x="-5.08" y="7.62" length="middle"/>
+<pin name="VDD" x="-5.08" y="5.08" length="middle"/>
+<pin name="RXD" x="-5.08" y="2.54" length="middle"/>
+<pin name="VIO" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="CANL" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="CANH" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="S" x="22.86" y="10.16" length="middle" rot="R180"/>
+<text x="0" y="13.208" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP2558FD" urn="urn:adsk.eagle:component:38673259/1">
+<gates>
+<gate name="G$1" symbol="MCP2558FD" x="-10.16" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="MCP2558FD">
+<connects>
+<connect gate="G$1" pin="CANH" pad="CANH"/>
+<connect gate="G$1" pin="CANL" pad="CANL"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VIO" pad="VIO"/>
+<connect gate="G$1" pin="VSS" pad="EP VSS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38673258/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8728,6 +8800,8 @@ Source: www.kingbright.com</description>
 <part name="CON4" library="amass" deviceset="XT60" device="PW-F" package3d_urn="urn:adsk.eagle:package:38637521/2"/>
 <part name="CON5" library="amass" deviceset="XT60" device="PW-F" package3d_urn="urn:adsk.eagle:package:38637521/2"/>
 <part name="CON6" library="amass" deviceset="XT60" device="PW-F" package3d_urn="urn:adsk.eagle:package:38637521/2"/>
+<part name="U$1" library="MCP2558FD" deviceset="MCP2558FD" device="" package3d_urn="urn:adsk.eagle:package:38673258/1"/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10029,13 +10103,27 @@ Source: www.kingbright.com</description>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U2" gate="G$1" x="104.14" y="71.12" smashed="yes">
-<attribute name="VALUE" x="104.14" y="91.948" size="2.54" layer="96"/>
+<instance part="U2" gate="G$1" x="76.2" y="76.2" smashed="yes">
+<attribute name="VALUE" x="76.2" y="97.028" size="2.54" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="160.02" y="78.74" smashed="yes">
+<attribute name="NAME" x="160.02" y="91.948" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="68.58" y="71.12" smashed="yes">
+<attribute name="VALUE" x="66.675" y="67.945" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VSS"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<wire x1="73.66" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
