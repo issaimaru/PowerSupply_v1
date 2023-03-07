@@ -1,7 +1,7 @@
 # PowerUnit Bseries<br>
 
 >**Warning**<br>
->新しいバージョンを開発中の基板です
+>新しいバージョンを開発中の基板です(2023/03/07)
 >![image](https://user-images.githubusercontent.com/80198387/223371482-920eeb53-7a89-4a5d-af41-96ffebf1e071.png)
 
 
