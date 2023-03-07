@@ -1,4 +1,10 @@
-# PowerUnit Bseries
+# PowerUnit Bseries<br>
+
+>**Warning**<br>
+>新しいバージョンを開発中の基板です
+>![image](https://user-images.githubusercontent.com/80198387/223371482-920eeb53-7a89-4a5d-af41-96ffebf1e071.png)
+
+
 **[自作モータードライバ](https://github.com/Issaimaru/MoterDriver_v1)と[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺すことができる電源基板**<br>
 **制作期間:2022/04/02~**<br>
 **動作電圧(TLP250H使用時) 9[V]~35[V]**<br>
