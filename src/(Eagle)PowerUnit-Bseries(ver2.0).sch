@@ -7350,6 +7350,7 @@ type 0411, grid 3.81 mm</description>
 <part name="CON4" library="amass" library_urn="urn:adsk.eagle:library:38637493" deviceset="XT60" device="PW-F" package3d_urn="urn:adsk.eagle:package:38637521/3"/>
 <part name="CON5" library="amass" library_urn="urn:adsk.eagle:library:38637493" deviceset="XT90" device="PW-F" package3d_urn="urn:adsk.eagle:package:38637515/3"/>
 <part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7589,7 +7590,7 @@ type 0411, grid 3.81 mm</description>
 <attribute name="NAME" x="24.892" y="18.3642" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.892" y="15.3162" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="12.7" y="15.24" smashed="yes"/>
+<instance part="SUPPLY4" gate="GND" x="7.62" y="25.4" smashed="yes"/>
 <instance part="USB1" gate="G$1" x="83.82" y="30.48" smashed="yes">
 <attribute name="VALUE" x="73.314" y="64.51" size="2" layer="96"/>
 </instance>
@@ -8581,6 +8582,7 @@ type 0411, grid 3.81 mm</description>
 <instance part="P+25" gate="VCC" x="68.58" y="299.72" smashed="yes">
 <attribute name="VALUE" x="66.04" y="297.18" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND72" gate="1" x="7.62" y="15.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -11096,20 +11098,13 @@ type 0411, grid 3.81 mm</description>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <pinref part="H1" gate="G$1" pin="P$1"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="22.86" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="27.94" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="H2" gate="G$1" pin="P$1"/>
 <wire x1="22.86" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 <junction x="12.7" y="27.94"/>
-<pinref part="H3" gate="G$1" pin="P$1"/>
-<wire x1="22.86" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
-<junction x="12.7" y="22.86"/>
-<pinref part="H4" gate="G$1" pin="P$1"/>
-<wire x1="22.86" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
-<junction x="12.7" y="17.78"/>
-<label x="9.652" y="11.176" size="1.778" layer="95"/>
+<label x="4.572" y="21.844" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
@@ -11635,6 +11630,17 @@ type 0411, grid 3.81 mm</description>
 <pinref part="GND57" gate="1" pin="GND"/>
 <wire x1="162.56" y1="396.24" x2="162.56" y2="393.7" width="0.1524" layer="91"/>
 <label x="160.02" y="388.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="H4" gate="G$1" pin="P$1"/>
+<pinref part="GND72" gate="1" pin="GND"/>
+<wire x1="22.86" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="H3" gate="G$1" pin="P$1"/>
+<wire x1="12.7" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<junction x="12.7" y="17.78"/>
+<label x="4.572" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERMAL" class="0">
@@ -13403,7 +13409,7 @@ S=VIN-&gt;silent mode</text>
 <busses>
 </busses>
 <nets>
-<net name="CANH" class="0">
+<net name="CAN_H" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CANH"/>
 <wire x1="177.8" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
@@ -13414,39 +13420,6 @@ S=VIN-&gt;silent mode</text>
 <wire x1="218.44" y1="78.74" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
 <junction x="218.44" y="81.28"/>
 <pinref part="R7" gate="G$1" pin="RIGHT"/>
-</segment>
-<segment>
-<pinref part="RJ45_1" gate="G$1" pin="4"/>
-<wire x1="81.28" y1="116.84" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<label x="81.28" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="RJ45_1" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="116.84" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<label x="78.74" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="RJ45_2" gate="G$1" pin="3"/>
-<wire x1="198.12" y1="116.84" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
-<label x="198.12" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="RJ45_2" gate="G$1" pin="4"/>
-<wire x1="200.66" y1="116.84" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
-<label x="200.66" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CANL"/>
-<wire x1="177.8" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="66.04" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-<label x="223.52" y="63.5" size="1.778" layer="95"/>
-<pinref part="SW1" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="66.04" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-<junction x="205.74" y="63.5"/>
 </segment>
 <segment>
 <pinref part="RJ45_1" gate="G$1" pin="5"/>
@@ -13467,6 +13440,39 @@ S=VIN-&gt;silent mode</text>
 <pinref part="RJ45_2" gate="G$1" pin="6"/>
 <wire x1="205.74" y1="116.84" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <label x="205.74" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="CAN_L" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CANL"/>
+<wire x1="177.8" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="66.04" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<label x="223.52" y="63.5" size="1.778" layer="95"/>
+<pinref part="SW1" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="66.04" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<junction x="205.74" y="63.5"/>
+</segment>
+<segment>
+<pinref part="RJ45_1" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="116.84" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="78.74" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="RJ45_1" gate="G$1" pin="4"/>
+<wire x1="81.28" y1="116.84" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
+<label x="81.28" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="RJ45_2" gate="G$1" pin="3"/>
+<wire x1="198.12" y1="116.84" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<label x="198.12" y="109.22" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="RJ45_2" gate="G$1" pin="4"/>
+<wire x1="200.66" y1="116.84" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="200.66" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$27" class="0">
