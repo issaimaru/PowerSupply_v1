@@ -6163,66 +6163,6 @@ type 0411, grid 3.81 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="V2020B">
-<packages>
-<package name="V2020B">
-<wire x1="7" y1="7" x2="-7" y2="7" width="0.1" layer="21"/>
-<wire x1="-7" y1="7" x2="-7" y2="-7" width="0.1" layer="21"/>
-<wire x1="-7" y1="-7" x2="7" y2="-7" width="0.1" layer="21"/>
-<wire x1="7" y1="-7" x2="7" y2="7" width="0.1" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="AKK">
-<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.143" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="2.54" x2="-1.143" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="2.159" x2="-0.381" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="2.159" x2="-0.381" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.27" x2="-1.143" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="1.27" x2="-1.143" y2="0.889" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="0.889" x2="-0.381" y2="0.889" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="0.889" x2="-0.381" y2="-0.889" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-0.889" x2="-1.143" y2="-0.889" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="-0.889" x2="-1.143" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="-1.27" x2="-0.381" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-1.27" x2="-0.381" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-2.159" x2="-1.143" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="-2.159" x2="-1.143" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="1.397" x2="1.016" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.032" x2="1.016" y2="2.032" width="0.1524" layer="94" curve="-180"/>
-<wire x1="1.016" y1="1.397" x2="1.016" y2="0.381" width="0.1524" layer="94" curve="180" cap="flat"/>
-<wire x1="0.254" y1="1.651" x2="0.254" y2="-2.413" width="0.4064" layer="94"/>
-<wire x1="0.254" y1="-2.413" x2="1.27" y2="-2.413" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.413" x2="1.27" y2="-0.127" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-0.127" x2="0.508" y2="-0.127" width="0.4064" layer="94"/>
-<wire x1="0.508" y1="-0.127" x2="0.508" y2="-2.032" width="0.4064" layer="94"/>
-<wire x1="0.508" y1="-2.032" x2="1.016" y2="-2.032" width="0.4064" layer="94"/>
-<wire x1="1.016" y1="-2.032" x2="1.016" y2="-0.381" width="0.4064" layer="94"/>
-<wire x1="1.016" y1="-0.381" x2="0.762" y2="-0.381" width="0.4064" layer="94"/>
-<wire x1="0.762" y1="-0.381" x2="0.762" y2="-1.778" width="0.4064" layer="94"/>
-<wire x1="0.508" y1="-2.54" x2="0.508" y2="-3.556" width="0.3048" layer="94"/>
-<text x="-1.651" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="3.683" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="V2020B" prefix="HEATSINK">
-<gates>
-<gate name="G$1" symbol="AKK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="V2020B">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="amass" urn="urn:adsk.eagle:library:38637493">
 <description>&lt;b&gt;AMASS PCB type connector&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by Suzaku Lab. Ltd. &lt;a href="mailto:support@suzakugiken.jp"&gt;support@suzakugiken.jp&lt;/a&gt;&lt;/author&gt;
@@ -7337,7 +7277,6 @@ type 0411, grid 3.81 mm</description>
 <part name="LED14" library="SML-E12V8WT86" deviceset="SML-E12V8WT86" device=""/>
 <part name="R90" library="CR0603" deviceset="CR0603" device="" value="100"/>
 <part name="LED15" library="SML-E12V8WT86" deviceset="SML-E12V8WT86" device=""/>
-<part name="HEATSINK1" library="V2020B" deviceset="V2020B" device=""/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C72" library="GCM188L81H104K57(0.1uF)" deviceset="GCM188L81H104KA57" device=""/>
 <part name="INV_SW1" library="con-jst-xh" deviceset="02-JST" device=""/>
@@ -8538,10 +8477,6 @@ type 0411, grid 3.81 mm</description>
 </instance>
 <instance part="LED14" gate="G$1" x="327.66" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="334.772" y="67.056" size="0.762" layer="95" rot="R180"/>
-</instance>
-<instance part="HEATSINK1" gate="G$1" x="236.22" y="365.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="231.14" y="367.411" size="1.778" layer="95"/>
-<attribute name="VALUE" x="233.68" y="362.077" size="1.778" layer="96"/>
 </instance>
 <instance part="GND57" gate="1" x="162.56" y="391.16" smashed="yes"/>
 <instance part="C72" gate="G$1" x="154.94" y="396.24" smashed="yes" rot="R90">
