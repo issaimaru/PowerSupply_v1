@@ -2,7 +2,8 @@
 
 >**Warning**<br>
 >新しいバージョンを開発中の基板です(2023/03/07)
->![image](https://user-images.githubusercontent.com/80198387/223371482-920eeb53-7a89-4a5d-af41-96ffebf1e071.png)
+>![image](https://user-images.githubusercontent.com/80198387/227890666-50245156-d425-4261-bb44-543c6a8bfbc3.png)
+>![image](https://user-images.githubusercontent.com/80198387/227890905-3e1362dd-6f01-4021-9800-ab1d59ebf587.png)
 
 
 **[自作モータードライバ](https://github.com/Issaimaru/MoterDriver_v1)と[MotorDriver-Controller_v4](https://github.com/TNCT-Mechatech/MotorDriver-Controller_v4)を刺すことができる電源基板**<br>
