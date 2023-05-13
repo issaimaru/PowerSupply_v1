@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "(Eagle)PowerUnit-Bseries(ver2.0)")(type "KiCad")(uri "$(KIPRJMOD)/(Eagle)PowerUnit-Bseries(ver2.0).pretty")(options "")(descr ""))
+)
