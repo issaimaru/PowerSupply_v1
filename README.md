@@ -1,6 +1,7 @@
 # アズサ(Azusa)
 
-この基板はJLCPCB様のスポンサーにて制作しています．
+<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/d8c9b5bd-39f3-4804-a705-47ad6f3597c6" width="40%"><br>
+この基板はJLCPCB様のFree PCB Sponsorshipにて制作しています．<br>
 
 
 
