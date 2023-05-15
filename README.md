@@ -1,6 +1,6 @@
 # アズサ(Azusa)
 
-<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/799e3b80-c0e5-4bfd-8dc7-47709d6b7508" width="40%"><br>
+<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/799e3b80-c0e5-4bfd-8dc7-47709d6b7508" width="60%"><br>
 ![version](https://img.shields.io/github/v/release/Issaimaru/PowerSupply_v1?color=g&style=for-the-badge) 
 ![license](https://img.shields.io/github/license/Issaimaru/PowerSupply_v1?color=blue&style=for-the-badge)
 ![size](https://img.shields.io/github/repo-size/Issaimaru/PowerSupply_v1?color=red&style=for-the-badge)
