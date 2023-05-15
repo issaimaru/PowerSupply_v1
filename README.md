@@ -16,6 +16,12 @@
 <img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/d0f61257-bdf1-42f1-bf15-3e27a810f6e4" width="20%">&emsp;&emsp;
 <img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/090ed8d5-8604-40c2-a7a0-2361dc71ee4b" width="8.2%"><br>
 
+## Usage
+<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/0e2d4985-41d4-4fc2-a84b-97cca45c4f07" width="50%"><!--仮の写真-->
+1. 上記の画像のように，[DriveUnit Bseries](https://github.com/Issaimaru/MoterDriver_v1)を使用したいチャネルのカードエッジコネクタに差し込む．<br>
+1. モータードライバを差し込んだエッジコネクタと同じチャネルにモータを接続し，必要に応じて同じチャネルのコネクタにロータリーエンコーダを接続する．<br>
+1. 
+
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
 1. コマンドプロンプトを立ち上げる．
