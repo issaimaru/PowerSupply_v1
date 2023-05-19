@@ -16,6 +16,22 @@
 <img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/d0f61257-bdf1-42f1-bf15-3e27a810f6e4" width="20%">&emsp;&emsp;
 <img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/090ed8d5-8604-40c2-a7a0-2361dc71ee4b" width="8.2%"><br>
 
+## Usage
+<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/9bfa3c2b-7708-48a6-a70e-aead300c6a2e" width="70%"><!--仮の写真-->
+1. [DriveUnit Bseries](https://github.com/Issaimaru/MoterDriver_v1)を使用したいチャネルのカードエッジコネクタに差し込む．<br>
+1. モータードライバを差し込んだエッジコネクタと同じチャネルにモータを接続し，必要に応じて同じチャネルのコネクタにロータリーエンコーダを接続する．<br>
+1. 非常停止スイッチを刺したコネクタの下にあるトグルスイッチをONに，それ以外のトグルスイッチをOFFにする．
+1. XT90とUSB Type-Cからそれぞれ電源を供給し，非常停止スイッチをONにすると稼働する．
+> **Note**<br>
+> USB Type-C用電源を省略する方法はDescriptionsを参照<br>
+
+## Features
+- 通信プロトコル<br>
+  CAN with Flexible Data Rate(CAN FD)
+
+## Descriptions
+
+
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
 1. コマンドプロンプトを立ち上げる．
