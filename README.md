@@ -25,6 +25,13 @@
 > **Note**<br>
 > USB Type-C用電源を省略する方法はDescriptionsを参照<br>
 
+## Features
+- 通信プロトコル<br>
+  CAN with Flexible Data Rate(CAN FD)
+
+## Descriptions
+
+
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
 1. コマンドプロンプトを立ち上げる．
