@@ -1,0 +1,696 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3850 4000 4050 4000
+Text GLabel 3900 4000 2    70   BiDi ~ 0
+VCC
+Wire Wire Line
+	4650 4000 4900 4000
+Text GLabel 4750 4000 2    70   BiDi ~ 0
+VCC
+Wire Wire Line
+	5500 4000 5750 4000
+Text GLabel 5600 4000 2    70   BiDi ~ 0
+VCC
+Wire Wire Line
+	3850 4690 4100 4690
+Text GLabel 3950 4690 2    70   BiDi ~ 0
+VCC
+Wire Wire Line
+	4650 4700 4850 4700
+Text GLabel 4700 4700 2    70   BiDi ~ 0
+VCC
+Wire Wire Line
+	5090 3050 4790 3050
+Text GLabel 4790 3050 2    70   BiDi ~ 0
+VCC
+Wire Wire Line
+	3000 6200 2700 6200
+Wire Wire Line
+	3000 6000 2700 6000
+Wire Wire Line
+	2700 6000 2700 6200
+Wire Wire Line
+	3000 5800 2700 5800
+Wire Wire Line
+	2700 5800 2700 6000
+Wire Wire Line
+	3000 5600 2700 5600
+Wire Wire Line
+	2700 5600 2700 5800
+Connection ~ 2700 6200
+Connection ~ 2700 6000
+Connection ~ 2700 5800
+Text GLabel 3000 6200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4000 2800 4000 2700
+Wire Wire Line
+	4000 2700 3300 2700
+Wire Wire Line
+	3300 2600 4000 2600
+Wire Wire Line
+	4000 2600 4000 2700
+Wire Wire Line
+	3900 2500 4000 2500
+Wire Wire Line
+	4000 2500 4000 2600
+Wire Wire Line
+	3900 2400 4000 2400
+Wire Wire Line
+	4000 2400 4000 2500
+Connection ~ 4000 2700
+Connection ~ 4000 2600
+Connection ~ 4000 2500
+Text GLabel 4000 2800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8200 2800 8300 2800
+Wire Wire Line
+	8300 2800 8300 2900
+Text GLabel 8200 2800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7500 2000 7400 2000
+Text GLabel 7400 2000 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	8300 5100 8300 5000
+Wire Wire Line
+	8300 5000 8150 5000
+Text GLabel 8300 5100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4650 4800 4850 4800
+Text GLabel 4700 4800 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	3850 4100 4050 4100
+Text GLabel 3900 4100 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	4650 4100 4900 4100
+Text GLabel 4750 4100 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5500 4100 5750 4100
+Text GLabel 5600 4100 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	3850 4790 4100 4790
+Text GLabel 3950 4790 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	8800 2000 9100 2000
+Text GLabel 8960 2000 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	7570 4020 7870 4020
+Text GLabel 7670 4020 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	8470 4020 8770 4020
+Text GLabel 8570 4020 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5890 2190 6140 2190
+Text GLabel 5990 2190 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5890 3050 6140 3050
+Text GLabel 5990 3050 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5490 3050 5590 3050
+Wire Wire Line
+	3500 2400 3300 2400
+Text GLabel 3300 2400 2    70   BiDi ~ 0
+CC1
+Wire Wire Line
+	3500 2500 3300 2500
+Text GLabel 3300 2500 2    70   BiDi ~ 0
+CC2
+Wire Wire Line
+	5090 2190 4790 2190
+Text GLabel 4790 2190 2    70   BiDi ~ 0
+VCC_P
+Wire Wire Line
+	7570 3820 7870 3820
+Text GLabel 7670 3820 2    70   BiDi ~ 0
+VCC_P
+Wire Wire Line
+	8470 3820 8770 3820
+Text GLabel 8570 3820 2    70   BiDi ~ 0
+VCC_P
+Wire Wire Line
+	3300 2300 3600 2300
+Text GLabel 3300 2300 2    70   BiDi ~ 0
+VCC_P
+Wire Wire Line
+	7500 2600 7400 2600
+Wire Wire Line
+	7400 2770 7400 2700
+Wire Wire Line
+	7400 3170 7500 3170
+Wire Wire Line
+	7500 3170 7500 2800
+Wire Wire Line
+	8200 2600 8400 2600
+Wire Wire Line
+	7500 2100 7500 2300
+Wire Wire Line
+	7500 2300 8200 2300
+Wire Wire Line
+	8200 2300 8200 2100
+Wire Wire Line
+	8200 2600 8200 2300
+Wire Wire Line
+	8800 2100 9000 2100
+Wire Wire Line
+	9000 2100 9000 2300
+Wire Wire Line
+	9000 2300 8200 2300
+Text GLabel 8200 2600 2    70   BiDi ~ 0
+SWITCH
+Connection ~ 8200 2300
+Connection ~ 8200 2600
+Wire Wire Line
+	7750 4900 7400 4900
+Text GLabel 7400 4900 2    70   BiDi ~ 0
+SWITCH
+Wire Wire Line
+	5490 2190 5590 2190
+Wire Wire Line
+	7570 3920 7870 3920
+Text GLabel 7670 3920 2    70   BiDi ~ 0
+CC
+Wire Wire Line
+	8470 3920 8770 3920
+Text GLabel 8570 3920 2    70   BiDi ~ 0
+CC
+$Comp
+L USB_JST-XH_Converter-eagle-import:A5L-LOC #FRAME1
+U 1 1 CC96BE83
+P 2300 6600
+AR Path="/CC96BE83" Ref="#FRAME1"  Part="1" 
+AR Path="/639B4B9A/CC96BE83" Ref="#FRAME1"  Part="1" 
+AR Path="/639EA9E5/CC96BE83" Ref="#FRAME1"  Part="1" 
+F 0 "#FRAME1" H 2300 6600 50  0001 C CNN
+F 1 "A5L-LOC" H 2300 6600 50  0001 C CNN
+F 2 "" H 2300 6600 50  0001 C CNN
+F 3 "" H 2300 6600 50  0001 C CNN
+	1    2300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST PORT1
+U 1 1 96A0C2AF
+P 3550 4000
+AR Path="/96A0C2AF" Ref="PORT1"  Part="1" 
+AR Path="/639B4B9A/96A0C2AF" Ref="PORT1"  Part="1" 
+AR Path="/639EA9E5/96A0C2AF" Ref="PORT1"  Part="1" 
+F 0 "PORT1" H 3500 4130 59  0000 L BNN
+F 1 "02-JST" H 3500 3700 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 3550 4000 50  0001 C CNN
+F 3 "" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST PORT2
+U 1 1 DE65265B
+P 4350 4000
+AR Path="/DE65265B" Ref="PORT2"  Part="1" 
+AR Path="/639B4B9A/DE65265B" Ref="PORT2"  Part="1" 
+AR Path="/639EA9E5/DE65265B" Ref="PORT3"  Part="1" 
+F 0 "PORT3" H 4300 4130 59  0000 L BNN
+F 1 "02-JST" H 4300 3700 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 4350 4000 50  0001 C CNN
+F 3 "" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST PORT3
+U 1 1 AF48B7E8
+P 5200 4000
+AR Path="/AF48B7E8" Ref="PORT3"  Part="1" 
+AR Path="/639B4B9A/AF48B7E8" Ref="PORT3"  Part="1" 
+AR Path="/639EA9E5/AF48B7E8" Ref="PORT5"  Part="1" 
+F 0 "PORT5" H 5150 4130 59  0000 L BNN
+F 1 "02-JST" H 5150 3700 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 5200 4000 50  0001 C CNN
+F 3 "" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST PORT4
+U 1 1 423DE5BD
+P 3550 4690
+AR Path="/423DE5BD" Ref="PORT4"  Part="1" 
+AR Path="/639B4B9A/423DE5BD" Ref="PORT4"  Part="1" 
+AR Path="/639EA9E5/423DE5BD" Ref="PORT2"  Part="1" 
+F 0 "PORT2" H 3500 4820 59  0000 L BNN
+F 1 "02-JST" H 3500 4390 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 3550 4690 50  0001 C CNN
+F 3 "" H 3550 4690 50  0001 C CNN
+	1    3550 4690
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST PORT5
+U 1 1 35EB9426
+P 4350 4700
+AR Path="/35EB9426" Ref="PORT5"  Part="1" 
+AR Path="/639B4B9A/35EB9426" Ref="PORT5"  Part="1" 
+AR Path="/639EA9E5/35EB9426" Ref="PORT4"  Part="1" 
+F 0 "PORT4" H 4300 4830 59  0000 L BNN
+F 1 "02-JST" H 4300 4400 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 4350 4700 50  0001 C CNN
+F 3 "" H 4350 4700 50  0001 C CNN
+	1    4350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:SS-12D00G3 SW1
+U 1 1 F85A3293
+P 7950 4900
+AR Path="/F85A3293" Ref="SW1"  Part="1" 
+AR Path="/639B4B9A/F85A3293" Ref="SW1"  Part="1" 
+AR Path="/639EA9E5/F85A3293" Ref="SW2"  Part="1" 
+F 0 "SW2" V 8150 4700 59  0000 L BNN
+F 1 "SS-12D00G3" V 8250 4600 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:SS-12D00G3" H 7950 4900 50  0001 C CNN
+F 3 "" H 7950 4900 50  0001 C CNN
+	1    7950 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:GND #SUPPLY1
+U 1 1 F54A36B8
+P 8300 5200
+AR Path="/F54A36B8" Ref="#SUPPLY1"  Part="1" 
+AR Path="/639B4B9A/F54A36B8" Ref="#SUPPLY01"  Part="1" 
+AR Path="/639EA9E5/F54A36B8" Ref="#SUPPLY0101"  Part="1" 
+F 0 "#SUPPLY0101" H 8300 5200 50  0001 C CNN
+F 1 "GND" H 8225 5075 59  0000 L BNN
+F 2 "" H 8300 5200 50  0001 C CNN
+F 3 "" H 8300 5200 50  0001 C CNN
+	1    8300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:SML-E12V8WT86 SW
+U 1 1 5CC1AECC
+P 5690 3050
+AR Path="/5CC1AECC" Ref="SW"  Part="1" 
+AR Path="/639B4B9A/5CC1AECC" Ref="SW2"  Part="1" 
+AR Path="/639EA9E5/5CC1AECC" Ref="SW1"  Part="1" 
+F 0 "SW1" V 5830 2870 59  0000 L BNN
+F 1 "SML-E12V8WT86" V 5915 2870 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:SML-E12V8WT86" H 5690 3050 50  0001 C CNN
+F 3 "" H 5690 3050 50  0001 C CNN
+	1    5690 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:RG2012N-101-B-T5 R2
+U 1 1 855FDFDB
+P 5290 3050
+AR Path="/855FDFDB" Ref="R2"  Part="1" 
+AR Path="/639B4B9A/855FDFDB" Ref="R2"  Part="1" 
+AR Path="/639EA9E5/855FDFDB" Ref="R4"  Part="1" 
+F 0 "R4" H 5290 3050 50  0001 C CNN
+F 1 "RG2012N-101-B-T5" H 5290 3050 50  0001 C CNN
+F 2 "USB_JST-XH_Converter:RG2012" H 5290 3050 50  0001 C CNN
+F 3 "" H 5290 3050 50  0001 C CNN
+	1    5290 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:GND #SUPPLY2
+U 1 1 19032892
+P 2700 6300
+AR Path="/19032892" Ref="#SUPPLY2"  Part="1" 
+AR Path="/639B4B9A/19032892" Ref="#SUPPLY02"  Part="1" 
+AR Path="/639EA9E5/19032892" Ref="#SUPPLY0102"  Part="1" 
+F 0 "#SUPPLY0102" H 2700 6300 50  0001 C CNN
+F 1 "GND" H 2625 6175 59  0000 L BNN
+F 2 "" H 2700 6300 50  0001 C CNN
+F 3 "" H 2700 6300 50  0001 C CNN
+	1    2700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:MOUNT-HOLE3.2(NORESIST) H1
+U 1 1 9910BFD8
+P 3000 5600
+AR Path="/9910BFD8" Ref="H1"  Part="1" 
+AR Path="/639B4B9A/9910BFD8" Ref="H1"  Part="1" 
+AR Path="/639EA9E5/9910BFD8" Ref="H1"  Part="1" 
+F 0 "H1" H 3080 5623 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2(NORESIST)" H 3080 5503 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:3,2" H 3000 5600 50  0001 C CNN
+F 3 "" H 3000 5600 50  0001 C CNN
+	1    3000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:MOUNT-HOLE3.2(NORESIST) H2
+U 1 1 5D268E00
+P 3000 5800
+AR Path="/5D268E00" Ref="H2"  Part="1" 
+AR Path="/639B4B9A/5D268E00" Ref="H2"  Part="1" 
+AR Path="/639EA9E5/5D268E00" Ref="H2"  Part="1" 
+F 0 "H2" H 3080 5823 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2(NORESIST)" H 3080 5703 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:3,2" H 3000 5800 50  0001 C CNN
+F 3 "" H 3000 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:MOUNT-HOLE3.2(NORESIST) H3
+U 1 1 DE67D20D
+P 3000 6000
+AR Path="/DE67D20D" Ref="H3"  Part="1" 
+AR Path="/639B4B9A/DE67D20D" Ref="H3"  Part="1" 
+AR Path="/639EA9E5/DE67D20D" Ref="H3"  Part="1" 
+F 0 "H3" H 3080 6023 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2(NORESIST)" H 3080 5903 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:3,2" H 3000 6000 50  0001 C CNN
+F 3 "" H 3000 6000 50  0001 C CNN
+	1    3000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:MOUNT-HOLE3.2(NORESIST) H4
+U 1 1 EA162BAB
+P 3000 6200
+AR Path="/EA162BAB" Ref="H4"  Part="1" 
+AR Path="/639B4B9A/EA162BAB" Ref="H4"  Part="1" 
+AR Path="/639EA9E5/EA162BAB" Ref="H4"  Part="1" 
+F 0 "H4" H 3080 6223 59  0000 L BNN
+F 1 "MOUNT-HOLE3.2(NORESIST)" H 3080 6103 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:3,2" H 3000 6200 50  0001 C CNN
+F 3 "" H 3000 6200 50  0001 C CNN
+	1    3000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:GND #SUPPLY3
+U 1 1 4F8E092B
+P 4000 2900
+AR Path="/4F8E092B" Ref="#SUPPLY3"  Part="1" 
+AR Path="/639B4B9A/4F8E092B" Ref="#SUPPLY03"  Part="1" 
+AR Path="/639EA9E5/4F8E092B" Ref="#SUPPLY0103"  Part="1" 
+F 0 "#SUPPLY0103" H 4000 2900 50  0001 C CNN
+F 1 "GND" H 3825 2775 59  0000 L BNN
+F 2 "" H 4000 2900 50  0001 C CNN
+F 3 "" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:RG2012 R3
+U 1 1 9A4BB1DE
+P 3700 2400
+AR Path="/9A4BB1DE" Ref="R3"  Part="1" 
+AR Path="/639B4B9A/9A4BB1DE" Ref="R3"  Part="1" 
+AR Path="/639EA9E5/9A4BB1DE" Ref="R1"  Part="1" 
+F 0 "R1" H 3830 2410 25  0000 L BNN
+F 1 "5.1k" H 3830 2360 25  0000 L BNN
+F 2 "USB_JST-XH_Converter:RG2012" H 3700 2400 50  0001 C CNN
+F 3 "" H 3700 2400 50  0001 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:RG2012 R4
+U 1 1 80DF3A02
+P 3700 2500
+AR Path="/80DF3A02" Ref="R4"  Part="1" 
+AR Path="/639B4B9A/80DF3A02" Ref="R4"  Part="1" 
+AR Path="/639EA9E5/80DF3A02" Ref="R2"  Part="1" 
+F 0 "R2" H 3830 2510 25  0000 L BNN
+F 1 "5.1k" H 3830 2460 25  0000 L BNN
+F 2 "USB_JST-XH_Converter:RG2012" H 3700 2500 50  0001 C CNN
+F 3 "" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST SWITCH
+U 1 1 BF4A4BA7
+P 7200 2000
+AR Path="/BF4A4BA7" Ref="SWITCH"  Part="1" 
+AR Path="/639B4B9A/BF4A4BA7" Ref="SWITCH1"  Part="1" 
+AR Path="/639EA9E5/BF4A4BA7" Ref="SWITCH1"  Part="1" 
+F 0 "SWITCH1" H 7050 2130 59  0000 L BNN
+F 1 "02-JST" H 7150 1700 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 7200 2000 50  0001 C CNN
+F 3 "" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST CTRL
+U 1 1 E88FF595
+P 7900 2000
+AR Path="/E88FF595" Ref="CTRL"  Part="1" 
+AR Path="/639B4B9A/E88FF595" Ref="CTRL1"  Part="1" 
+AR Path="/639EA9E5/E88FF595" Ref="CTRL1"  Part="1" 
+F 0 "CTRL1" H 7850 2130 59  0000 L BNN
+F 1 "02-JST" H 7850 1700 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 7900 2000 50  0001 C CNN
+F 3 "" H 7900 2000 50  0001 C CNN
+	1    7900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:02-JST CTRL_I
+U 1 1 274AF3D0
+P 7100 2600
+AR Path="/274AF3D0" Ref="CTRL_I"  Part="1" 
+AR Path="/639B4B9A/274AF3D0" Ref="CTRL_I1"  Part="1" 
+AR Path="/639EA9E5/274AF3D0" Ref="CTRL_I1"  Part="1" 
+F 0 "CTRL_I1" H 7050 2730 59  0000 L BNN
+F 1 "02-JST" H 7050 2300 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B2B-XH" H 7100 2600 50  0001 C CNN
+F 3 "" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:GND #SUPPLY4
+U 1 1 1C9152C2
+P 8300 3000
+AR Path="/1C9152C2" Ref="#SUPPLY4"  Part="1" 
+AR Path="/639B4B9A/1C9152C2" Ref="#SUPPLY04"  Part="1" 
+AR Path="/639EA9E5/1C9152C2" Ref="#SUPPLY0104"  Part="1" 
+F 0 "#SUPPLY0104" H 8300 3000 50  0001 C CNN
+F 1 "GND" H 8225 2875 59  0000 L BNN
+F 2 "" H 8300 3000 50  0001 C CNN
+F 3 "" H 8300 3000 50  0001 C CNN
+	1    8300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:TLP293 U2
+U 1 1 4E0AB7A9
+P 7900 2700
+AR Path="/4E0AB7A9" Ref="U2"  Part="1" 
+AR Path="/639B4B9A/4E0AB7A9" Ref="U2"  Part="1" 
+AR Path="/639EA9E5/4E0AB7A9" Ref="U1"  Part="1" 
+F 0 "U1" H 7625 2925 59  0000 L BNN
+F 1 "TLP293" H 7625 2400 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:SO4_TOS" H 7900 2700 50  0001 C CNN
+F 3 "" H 7900 2700 50  0001 C CNN
+	1    7900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:RG2012 R5
+U 1 1 4373A00B
+P 7400 2970
+AR Path="/4373A00B" Ref="R5"  Part="1" 
+AR Path="/639B4B9A/4373A00B" Ref="R5"  Part="1" 
+AR Path="/639EA9E5/4373A00B" Ref="R5"  Part="1" 
+F 0 "R5" H 7530 2980 25  0000 L BNN
+F 1 "1k" H 7530 2930 25  0000 L BNN
+F 2 "USB_JST-XH_Converter:RG2012" H 7400 2970 50  0001 C CNN
+F 3 "" H 7400 2970 50  0001 C CNN
+	1    7400 2970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:PINHD-1X2 JP1
+U 1 1 0B60073D
+P 8700 2000
+AR Path="/0B60073D" Ref="JP1"  Part="1" 
+AR Path="/639B4B9A/0B60073D" Ref="JP1"  Part="1" 
+AR Path="/639EA9E5/0B60073D" Ref="JP1"  Part="1" 
+F 0 "JP1" H 8450 2225 59  0000 L BNN
+F 1 "PINHD-1X2" H 8450 1800 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:1X02" H 8700 2000 50  0001 C CNN
+F 3 "" H 8700 2000 50  0001 C CNN
+	1    8700 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:SML-E12V8WT86 POW
+U 1 1 8264F283
+P 5690 2190
+AR Path="/8264F283" Ref="POW"  Part="1" 
+AR Path="/639B4B9A/8264F283" Ref="POW1"  Part="1" 
+AR Path="/639EA9E5/8264F283" Ref="POW1"  Part="1" 
+F 0 "POW1" V 5830 2010 59  0000 L BNN
+F 1 "SML-E12V8WT86" V 5915 2010 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:SML-E12V8WT86" H 5690 2190 50  0001 C CNN
+F 3 "" H 5690 2190 50  0001 C CNN
+	1    5690 2190
+	0    -1   -1   0   
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:RG2012N-101-B-T5 R1
+U 1 1 54673866
+P 5290 2190
+AR Path="/54673866" Ref="R1"  Part="1" 
+AR Path="/639B4B9A/54673866" Ref="R1"  Part="1" 
+AR Path="/639EA9E5/54673866" Ref="R3"  Part="1" 
+F 0 "R3" H 5290 2190 50  0001 C CNN
+F 1 "RG2012N-101-B-T5" H 5290 2190 50  0001 C CNN
+F 2 "USB_JST-XH_Converter:RG2012" H 5290 2190 50  0001 C CNN
+F 3 "" H 5290 2190 50  0001 C CNN
+	1    5290 2190
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:03-JST IN
+U 1 1 CB343537
+P 7270 3920
+AR Path="/CB343537" Ref="IN"  Part="1" 
+AR Path="/639B4B9A/CB343537" Ref="IN1"  Part="1" 
+AR Path="/639EA9E5/CB343537" Ref="IN1"  Part="1" 
+F 0 "IN1" H 7220 4150 59  0000 L BNN
+F 1 "03-JST" H 7220 3620 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B3B-XH" H 7270 3920 50  0001 C CNN
+F 3 "" H 7270 3920 50  0001 C CNN
+	1    7270 3920
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:03-JST THRU
+U 1 1 BE8514DD
+P 8170 3920
+AR Path="/BE8514DD" Ref="THRU"  Part="1" 
+AR Path="/639B4B9A/BE8514DD" Ref="THRU1"  Part="1" 
+AR Path="/639EA9E5/BE8514DD" Ref="THRU1"  Part="1" 
+F 0 "THRU1" H 8120 4150 59  0000 L BNN
+F 1 "03-JST" H 8120 3620 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:B3B-XH" H 8170 3920 50  0001 C CNN
+F 3 "" H 8170 3920 50  0001 C CNN
+	1    8170 3920
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_JST-XH_Converter-eagle-import:UJC-HP-3-SMT-TR USB1
+U 1 1 022A0DE2
+P 3000 2500
+AR Path="/022A0DE2" Ref="USB1"  Part="1" 
+AR Path="/639B4B9A/022A0DE2" Ref="USB1"  Part="1" 
+AR Path="/639EA9E5/022A0DE2" Ref="USB1"  Part="1" 
+F 0 "USB1" H 2950 2830 59  0000 L BNN
+F 1 "UJC-HP-3-SMT-TR" H 2950 2100 59  0000 L BNN
+F 2 "USB_JST-XH_Converter:UJC-HP-3-SMT-TR" H 3000 2500 50  0001 C CNN
+F 3 "" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3250 3650 3250 5200
+Wire Notes Line
+	3250 5200 6050 5200
+Wire Notes Line
+	6050 5200 6050 3650
+Wire Notes Line
+	6050 3650 3250 3650
+Wire Notes Line
+	6950 4400 6950 5500
+Wire Notes Line
+	6950 5500 9000 5500
+Wire Notes Line
+	9000 5500 9000 4400
+Wire Notes Line
+	9000 4400 6950 4400
+Text Notes 7800 5600 0    59   ~ 0
+Switch
+Text Notes 4500 5300 0    59   ~ 0
+Port
+Text Notes 3510 3190 0    59   ~ 0
+USB
+Wire Notes Line
+	4540 2750 4540 3300
+Wire Notes Line
+	4540 3300 6390 3300
+Wire Notes Line
+	6390 3300 6390 2750
+Wire Notes Line
+	6390 2750 4540 2750
+Text Notes 5140 3390 0    59   ~ 0
+SWITCH_LED
+Wire Notes Line
+	2650 2000 2650 3100
+Wire Notes Line
+	2650 3100 4300 3100
+Wire Notes Line
+	4300 3100 4300 2000
+Wire Notes Line
+	4300 2000 2650 2000
+Wire Notes Line
+	6650 1600 6650 3300
+Wire Notes Line
+	6650 3300 9190 3300
+Wire Notes Line
+	9190 3300 9190 1600
+Wire Notes Line
+	9190 1600 6650 1600
+Wire Notes Line
+	4540 1890 4540 2440
+Wire Notes Line
+	4540 2440 6390 2440
+Wire Notes Line
+	6390 2440 6390 1890
+Wire Notes Line
+	6390 1890 4540 1890
+Text Notes 5240 2530 0    59   ~ 0
+POW_LED
+Wire Notes Line
+	6970 3520 6970 4220
+Wire Notes Line
+	6970 4220 8970 4220
+Wire Notes Line
+	8970 4220 8970 3520
+Wire Notes Line
+	8970 3520 6970 3520
+Text Notes 7900 4300 0    59   ~ 0
+POW
+Text Notes 7800 3400 0    59   ~ 0
+CTRL
+Text Notes 9100 6400 0    85   ~ 0
+完
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name USB_JST-XH_Converter-eagle-import)(type Legacy)(uri ${KIPRJMOD}/USB_JST-XH_Converter-eagle-import.lib)(options "")(descr ""))
+)
