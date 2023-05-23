@@ -26,10 +26,35 @@
 > USB Type-C用電源を省略する方法はDescriptionsを参照<br>
 
 ## Features
-- 通信プロトコル<br>
-  CAN with Flexible Data Rate(CAN FD)
+<dl>
+  <dt>通信プロトコル</dt>
+  <dd>CAN with Flexible Data Rate(CAN FD)</dd>
+  <dt>通信用コネクタ・ケーブル</dt>
+  <dd>RJ-45/LANケーブル</dd>
+  <dt>マイクロコンピュータ</dt>
+  <dd>STM32F446RE</dd>
+  <dt>特殊回路</dt>
+  <dd>
+  ・オートディスチャージ回路<br>
+
+  <dt>保護回路(電源側)</dt>
+  <dd>
+  ・過電流保護(閾値可変)<br>
+  ・ヒステリシス付き過熱保護<br>
+  ・短絡保護<br>
+  ・突入電流抑制<br>
+  </dd>
+  <dt>保護回路(信号側)</dt>
+  <dd>
+  ・過電圧保護<br>
+  ・過電圧クランプ<br>
+  ・突入電流抑制<br>
+  ・過電流保護(東芝のeFuseを使用)<br>
+  ・過熱保護<br>
 
 ## Descriptions
+
+## Bills of materials
 
 
 ## 回路図のダウンロード(クローン)方法

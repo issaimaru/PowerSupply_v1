@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "fffff30_fffffff8",
+    "visible_layers": "fffff30_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "(Eagle)PowerUnit-Bseries(ver2.0).kicad_prl",
+    "filename": "Azusa.kicad_prl",
     "version": 3
   },
   "project": {

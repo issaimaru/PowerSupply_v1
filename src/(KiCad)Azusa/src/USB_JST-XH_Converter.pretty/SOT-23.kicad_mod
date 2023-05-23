@@ -1,0 +1,18 @@
+(module SOT-23 (layer F.Cu) (tedit 0)
+  (fp_text reference FET1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_text value BSS138 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_line (start -1.52 -1.7) (end -1.52 -0.3) (layer F.SilkS) (width 0.1))
+  (fp_line (start -1.52 -0.3) (end 1.52 -0.3) (layer F.SilkS) (width 0.1))
+  (fp_line (start 1.52 -0.3) (end 1.52 -1.7) (layer F.SilkS) (width 0.1))
+  (fp_line (start 1.52 -1.7) (end -1.52 -1.7) (layer F.SilkS) (width 0.1))
+  (pad D smd rect (at 0 -2) (size 0.8 1) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+  (pad G smd rect (at -0.95 0) (size 0.8 1) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+  (pad S smd rect (at 0.95 0) (size 0.8 1) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+)
