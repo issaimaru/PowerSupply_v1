@@ -36,6 +36,7 @@
   <dt>特殊回路</dt>
   <dd>
   ・オートディスチャージ回路<br>
+  ・車載用スローブローヒューズ
 
   <dt>保護回路(電源側)</dt>
   <dd>
@@ -55,9 +56,66 @@
 ## Descriptions
 
 ## Bills of materials
+> **Note**<br>
+>最低限の部品のみここに書いています．<br>
+>はんだ付けに必要な部品を調べるときは以下のexcelファイルを見るか，BOMファイルを出力してください．<br>
+>[アズサ(Azusa)-ver2.0_必要部品.xlsx](src/%E3%82%A2%E3%82%BA%E3%82%B5(Azusa)-ver2.0_%E5%BF%85%E8%A6%81%E9%83%A8%E5%93%81.xlsx)<br>
 <dl>
-  <dt>BOM file</dt>
-  <dd>[Azusa_BOM](src/BOM/Azusa_BOM.html)</dd>
+  <dt>マイクロコンピュータ</dt>
+  <dd>
+
+  [STM32F446RET6](https://www.digikey.jp/ja/products/detail/stmicroelectronics/STM32F446RET6/5175962)
+
+  </dd>
+
+  <dt>電流センサ</dt>
+  <dd>
+  
+  [CZ-3A04](https://www.digikey.jp/ja/products/detail/asahi-kasei-microdevices-akm/CZ3A04/11570562)
+
+  </dd>
+  <dt>CANトランシーバ</dt>
+  <dd>
+
+  [MCP2558FDT-H/MNY](https://www.digikey.jp/ja/products/detail/microchip-technology/MCP2558FDT-H-MNY/6009304)
+
+  </dd>
+  <dt>CANコントローラ</dt>
+  <dd>
+
+  [MCP2517FDT-H/SL](https://www.digikey.jp/ja/products/detail/microchip-technology/MCP2517FDT-H-SL/7801797)
+
+  </dd>
+  <dt>ヒートシンク</dt>
+  <dd>
+  
+  [V2020B](https://www.digikey.jp/ja/products/detail/assmann-wsw-components/V2020B/8826902)
+  
+  </dd>
+  <dt>ヒューズ</dt>
+  <dd>
+
+  [0297030.WXT](https://www.digikey.jp/en/products/detail/littelfuse-inc/0297030-WXT/5233697)
+
+  </dd>
+  <dt>USB・シリアル変換IC</dt>
+  <dd>
+
+  [CH340E](https://akizukidenshi.com/catalog/g/gI-13543/)
+
+  </dd>
+  <dt>NTCサーミスタ</dt>
+  <dd>
+
+  [NCU15WB473F60RC](https://www.digikey.jp/ja/products/detail/murata-electronics/NCU15WB473F60RC/9686720)
+
+  </dd>
+  <dt>DIPスイッチ</dt>
+  <dd>
+
+  [RDS-16S-1055-SMT-TR](https://www.digikey.jp/ja/products/detail/cui-devices/RDS-16S-1055-SMT-TR/12424507)
+
+  </dd>
 </dl>
 
 ## 回路図のダウンロード(クローン)方法
