@@ -55,7 +55,10 @@
 ## Descriptions
 
 ## Bills of materials
-
+<dl>
+  <dt>BOM file</dt>
+  <dd>[Azusa_BOM](src/BOM/Azusa_BOM.html)</dd>
+</dl>
 
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
