@@ -17,7 +17,8 @@
 <img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/090ed8d5-8604-40c2-a7a0-2361dc71ee4b" width="8.2%"><br>
 
 ## Usage
-<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/9bfa3c2b-7708-48a6-a70e-aead300c6a2e" width="70%"><!--仮の写真-->
+<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/9bfa3c2b-7708-48a6-a70e-aead300c6a2e" width="70%">
+
 1. [DriveUnit Bseries](https://github.com/Issaimaru/MoterDriver_v1)を使用したいチャネルのカードエッジコネクタに差し込む．<br>
 1. モータードライバを差し込んだエッジコネクタと同じチャネルにモータを接続し，必要に応じて同じチャネルのコネクタにロータリーエンコーダを接続する．<br>
 1. 非常停止スイッチを刺したコネクタの下にあるトグルスイッチをONに，それ以外のトグルスイッチをOFFにする．
@@ -54,13 +55,31 @@
   ・過熱保護<br>
 
 ## Descriptions
-    
+本ハードウェアの使用方法を詳しく書いていきます．<br>
+質問や連絡等あれば[@TakenMaker](https://twitter.com/TakenMaker)までお願いします．<br>
+
+### 回路図
+<img src="src/picture/%E5%9B%9E%E8%B7%AF%E5%9B%B31.png" width="30%">&ensp;<img src="src/picture/回路図2.png" width="30%">&ensp;<img src="src/picture/回路図3.png" width="30%">
+
+#### 始動方法
+始動方法については[Usage](#usage)で示しました．<br>
+ここでは始動時の応用的な使い方について紹介していきます．
+
+- 信号用バッテリーの省略
+
+<img src="https://github.com/Issaimaru/PowerSupply_v1/assets/80198387/704f3bae-e0e4-444f-877d-3d06336fb5b2" width="40%"><br>
+
+JP6で信号用の電源をUSB給電or外部給電に切り替えることができます．<br>
+外部電源としては，SPOWのピンに接続された電源かリポバッテリーか選ぶことができます．<br>
+リポバッテリーの場合は「GND」と「SPOW」のピンヘッダを短絡してください．<br>
+その際にE5VのLEDが点灯していることを確認してください．
 
 ## Bills of materials
 > **Note**<br>
 >最低限の部品のみここに書いています．<br>
 >はんだ付けに必要な部品を調べるときは以下のexcelファイルを見るか，BOMファイルを出力してください．<br>
->[アズサ(Azusa)-ver2.0_必要部品.xlsx](src/%E3%82%A2%E3%82%BA%E3%82%B5(Azusa)-ver2.0_%E5%BF%85%E8%A6%81%E9%83%A8%E5%93%81.xlsx)<br>
+>[アズサ(Azusa)-ver2.0_必要部品.xlsx](src/%E3%82%A2%E3%82%BA%E3%82%B5(Azusa)-ver2.0_%E5%BF%85%E8%A6%81%E9%83%A8%E5%93%81.xlsx)
+<br>
 <dl>
   <dt>マイクロコンピュータ</dt>
   <dd>
@@ -131,7 +150,10 @@
 </table>
     
 ## Licence
-  [MIT]()
+  - Copyright © 2022-2023 Issaimaru<br>
+
+本ハードウェアは，Apache License Version 2.0の下で配布されます．<br>
+詳しくはLICENSEファイルをご確認ください．<br>
 
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
