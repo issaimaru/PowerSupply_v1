@@ -54,6 +54,7 @@
   ・過熱保護<br>
 
 ## Descriptions
+    
 
 ## Bills of materials
 > **Note**<br>
@@ -117,6 +118,20 @@
 
   </dd>
 </dl>
+
+## Reference
+
+
+## Author
+    
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Issaimaru"><img src="https://avatars.githubusercontent.com/issaimaru" width="150px;" alt="Issaimaru"/><br /></a>Issaimaru</td>
+  </tr>
+</table>
+    
+## Licence
+  [MIT]()
 
 ## 回路図のダウンロード(クローン)方法
 1. Gitをインストールする．<br>Gitのインストール方法は[ここ](https://www.sejuku.net/blog/73444)を参照．
