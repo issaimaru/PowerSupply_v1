@@ -138,8 +138,8 @@ JP6で信号用の電源をUSB給電or外部給電に切り替えることがで
   </dd>
 </dl>
 
-## Reference
-
+## Contact
+- Twitter [@TakenMaker](https://twitter.com/TakenMaker)
 
 ## Author
     
